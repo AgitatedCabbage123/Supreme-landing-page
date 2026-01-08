@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(5, 148px);
     gap: 0px;
+    row-gap: 10px;
     padding: 0px;
     background-color: white;
     margin: auto;
@@ -47,3 +48,33 @@
     background-color: red;
     color: white;
 }
+
+.inline {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+.inline:hover{
+    background-color: red;
+    color: white;
+}
+
+.footer-inline-1 {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
+.footer-inline-2 {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
+.footer-inline-3 {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
